@@ -1,0 +1,58 @@
+{
+  "profile": {
+    "name": "Eugene Huang",
+    "title": "Full Stack Engineer",
+    "email": "yoyo83yoyololz@gmail.com",
+    "summary": "Full Stack Engineer with 9+ years building and maintaining web applications across PHP, Ruby, and Vue.js stacks. Experienced diagnosing and resolving technical issues for distributed, cross-country teams and clients, and turning one-off fixes into reusable tools and components adopted by other engineers and end users. Comfortable owning a project end-to-end, from database design to front-end delivery, while collaborating daily with developers, PMs, and designers across multiple countries."
+  },
+  "skillGroups": [
+    {
+      "label": "Web Development",
+      "skills": ["HTML/CSS", "JavaScript", "Vue.js", "REST API", "HTTP", "PHP", "Ruby", "Laravel", "Vite", "Python"]
+    },
+    {
+      "label": "Database",
+      "skills": ["PostgreSQL", "MySQL", "MongoDB", "Redis", "Elasticsearch"]
+    },
+    {
+      "label": "Infrastructure & Tools",
+      "skills": ["Git", "Docker", "Kubernetes", "Etcd", "GitLab CI/CD", "Prometheus", "Grafana", "Cypress.io", "Selenium"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "WeArisma",
+      "date": "May 2021 – July 2026",
+      "stack": "Ruby / Vue.js / MongoDB",
+      "highlights": [
+        "Built and maintained a client-facing web application drawing on a database of 1M+ influencer profiles, helping clients across multiple countries find influencers that matched their needs.",
+        "Built a Google Chrome extension so clients could access the company's web tool directly from their browser, simplifying what had been a manual, multi-step workflow.",
+        "Set up a local Prometheus and Grafana monitoring stack, instrumenting Ruby services to export metrics and building dashboards with Slack alerts to surface system issues in real time.",
+        "Designed reusable Vue.js components adopted by other engineers on the team, improving front-end consistency and development speed.",
+        "Integrated multiple third-party APIs (e.g. Google, Meta, Instagram) to ingest and normalize influencer data across varying data structures and sources, keeping the platform's dataset current and consistent."
+      ]
+    },
+    {
+      "role": "Web & System Developer",
+      "company": "Synology",
+      "date": "May 2017 – May 2021",
+      "stack": "PHP (Laravel) / Vue.js / PostgreSQL",
+      "highlights": [
+        "Diagnosed and resolved recurring cross-region connectivity issues by setting up an Etcd cluster to sync data in real time between teams in China, Europe, and Taiwan.",
+        "Built the Project Booking System, integrating data across teams and countries and customizing regional settings to meet local users' needs, which reduced duplicate work for sales teams.",
+        "Collaborated daily with developers, PMs, and designers across multiple countries to build and maintain internal system services.",
+        "Containerized services with Docker and assisted with deployment via GitLab CI/CD on Kubernetes.",
+        "Introduced end-to-end testing with Python Selenium into the CI pipeline, improving the team's ability to catch issues before release.",
+        "Used Redis to cache frequently changing data such as daily exchange rates and other dynamic system values, reducing redundant database queries across services."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "B.S. Computer Science",
+      "school": "National Chengchi University",
+      "date": "Sept 2012 – June 2016"
+    }
+  ]
+}
